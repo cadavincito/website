@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="css/tablet.css" media="(max-width: 700px)" />
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 380px)" />
+    <title>Document</title>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header class="menu">
+      <div class="topnav" id="myTopnav">
+        <a style="padding-bottom: 4px; padding-top: 7px" href="index.html"
+          ><img src="assets/icons/snake.svg" alt="Logo de Cadavinci"
+        /></a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">Acerca</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="header">
+        <img src="assets/icons/cada.svg" alt="cadavinci">
+      </section>
+        <section class="left">
+            <img src="assets/img/tono.jpeg" alt="Foto de Cadavinci" />
+        </section >
+        <section class="right">
+          <p>
+            I´m Antonio Cadavid, developer based in Colombia. I love software, design and marketing.<br>
+            My main interests are databases, backend programming, python and systems engineering.<br>Besides software I like everything related to graphic design and sales.
+            <br>Also I enjoy writing at my <a href="blog.html">Blog</a> about
+            different topics.<br>
+            You can reach out to me via Direct message through my social media (Below).
+          </p>
+        </section>
+       
+    </main>
+
+    <section class="social-container">
+      <div class="social-icons">
+        <a href="https://github.com/cadav1nci" target="_blank"><img src="assets/icons/GitHub-Mark-64px.png" alt="Github logo"></a>
+        <a href="https://www.linkedin.com/in/antonio-cadavid-7ab265203/" target="_blank"><img src="assets/icons/LI-In-Bug.png" alt="LinkedIn logo"></a>
+        <a href="https://twitter.com/cadavinci" target="_blank"><img src="assets/icons/twitter.svg" alt="Twitter logo"></a>
+        <a href="https://twitter.com/cadavinci" target="_blank"><img src="https://www.flaticon.es/svg/vstatic/svg/174/174855.svg?token=exp=1619388159~hmac=bbf1b528b03fc8d6f40d0adf0fc262f7" alt="Instagram logo"></a>
+      </div>
+    </section>
+    <footer>
+      <section>
+        <ul>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Acerca de mí</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </section>
+      <section>
+        <img src="assets/icons/snake.svg" alt="logo de Cadavinci" />
+      </section>
+    </footer>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+  </body>
+</html>

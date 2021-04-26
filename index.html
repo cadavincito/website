@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="css/tablet.css" media="(max-width: 700px)" />
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 380px)" />
+    <title>cadavinci.com</title>
+  </head>
+
+  <body>
+    <header class="menu">
+      <div class="topnav" id="myTopnav">
+        <a style="padding-bottom: 4px; padding-top: 7px" href="index.html"
+          ><img src="assets/icons/snake.svg" alt="Logo de Cadavinci"
+        /></a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">Acerca</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="header">
+        <img src="assets/icons/cada.svg" alt="cadavinci" />
+      </section>
+      <section class="about-me-container">
+        <div class="about-me-container--content">
+          <div class="img">
+            <img src="assets/img/tono.jpeg" alt="" />
+            <p>
+              I´m Antonio Cadavid<br />
+              Thanks for visiting.
+            </p>
+            <button class="btn"><a href="about.html">About me</a></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="header">
+        <img src="assets/icons/blog.svg" alt="blog" />
+      </section>
+
+      <!-- BLOG -->
+      <div class="blog-container">
+        <div class="left">
+          <img src="assets/icons/snake.svg" alt="logo cadavinci" />
+          <button class="btn"><a href="blog.html">To Blog</a></button>
+        </div>
+      </div>
+      <!-- FIN BLOG
+******** -->
+      <!-- <section class="advertising-container">
+        <h2>¿Deseas tener tu página web?</h2>
+        <div class="container">
+          <img
+            src="assets/icons/iconmonstr-globe-3.svg"
+            alt="Globe Icon"
+            class="box"
+          />
+        </div>
+        <p>
+          Si necesita una web personal o para su negocio <br />
+          Contácteme y juntos diseñaremos la solución que mas se adapte a sus
+          necesidades
+        </p>
+        <button class="btn">Ver Planes</button>
+      </section> -->
+      <section class="header">
+        <img src="assets/icons/uros.svg" alt="uros" />
+      </section>
+      <section class="uros">
+        <section class="header">
+          <img src="assets/icons/triuros.svg" alt="meet the uros" />
+        </section>
+
+        <p>
+          Meet the Uros. <br />
+          My first collection of digital art.
+        </p>
+
+        <button class="btn"><a href="uros.html">Meet the Uros</a></button>
+      </section>
+
+      <!-- <section style="display: flex;justify-content: center;align-items: center; width: 100%; height: 40vh;">
+        <nft-card
+        contractAddress="0x495f947276749ce646f68ac8c248420045cb7b5e"
+        tokenId="10744937382282526340136926937624463827132525569436322309810863478576584327169">
+        </nft-card>
+        <script src="https://unpkg.com/embeddable-nfts/dist/nft-card.min.js"></script>
+          </section> -->
+
+      <section class="header">
+        <img src="assets/icons/style.svg" alt="find your style" />
+      </section>
+
+      <section class="social-container">
+        <div class="social-icons">
+          <a href="https://github.com/cadav1nci" target="_blank"
+            ><img src="assets/icons/GitHub-Mark-64px.png" alt="Github logo"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/antonio-cadavid-7ab265203/"
+            target="_blank"
+            ><img src="assets/icons/LI-In-Bug.png" alt="LinkedIn logo"
+          /></a>
+          <a href="https://twitter.com/cadavinci" target="_blank"
+            ><img src="assets/icons/twitter.svg" alt="Twitter logo"
+          /></a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <ul>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">Acerca de mí</a></li>
+          <li><a href="uros.html">Uros</a></li>
+        </ul>
+      </section>
+      <section>
+        <img src="assets/icons/snake.svg" alt="logo de Cadavinci" />
+      </section>
+    </footer>
+    <section class="disclaimer">
+      <!-- <a href="#"><img src="https://i2.wp.com/i.pinimg.com/originals/65/da/39/65da39f2cac03fff1f289c006427d0b2.gif" alt="trippy gif">
+      </a> -->
+      <p>Develop with &#10084; by Cadavinci</p>
+    </section>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
