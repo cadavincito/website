@@ -35,6 +35,11 @@ html {
   background-color: #000;
 }
 
+.topnav {
+  overflow: hidden;
+  background-color: #000;
+}
+
 .topnav a {
   float: left;
   display: inline-block;
@@ -86,6 +91,7 @@ html {
     text-align: left;
   }
 }
+
 /* End menu */
 
 .main-banner {
@@ -181,11 +187,23 @@ background-color: #ffffff;
 /* Fake image */
 .fakeimg {
 background-color: #fff;
-width: 99%;
-height: 120px; 
+background-size: cover;
+background-position: center; /* Center the image */
+width: 300px;
+height: 300px; 
 padding: 20px;
 }
 
+@media (min-width: 600px) {
+  .fakeimg {
+    background-color: #fff;
+    background-size: cover;
+    background-position: center; /* Center the image */
+    width: 60%;
+    height: 300px; 
+    padding: 20px;
+    }
+}
 /* Add a card effect for articles */
 .card {
  width: 100%;
@@ -282,6 +300,26 @@ footer section ul li {
 footer section ul li a {
   text-decoration: none;
   color: var(--just-white);
+}
+
+.disclaimer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 12vh;
+  background-color: black;
+}
+
+.disclaimer a img{
+  width: 15px;
+  border-radius: 50%;
+}
+
+.disclaimer p {
+  font-weight: 600;
+  color: white;
+  font-size: 1.6rem;
 }
 
 @keyframes rotation {
