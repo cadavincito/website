@@ -243,44 +243,47 @@
     padding: 0;
   }
   }
-  footer {
-    display: flex;
-    width: 100%;
-    height: 15vh;
-    background-color: var(--black);
+ 
+  .go-back{
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  /* margin-bottom: 60px; */
   }
-  
-  footer section {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 50%;
-  }
-  
-  footer section img {
-    width: 70px;
-  }
-  
-  footer section ul {
-    font-weight: 600;
-    line-height: 2.1rem;
-    font-size: 1.4rem;
-  
-    margin: auto;
-    width: 100%;
+
+  .btn {
+    background-color: rgb(0, 0, 0);
+    color: black;
+    border: 6px solid #000; /* Green */
+    width: 15%;
+    height: 3.6em;
+    border-radius: 15px;
+    font-size: 2rem;
     text-align: center;
-    list-style: none;
-  }
-  
-  footer section ul li {
-    margin: 10px 0;
-  }
-  
-  footer section ul li a {
     text-decoration: none;
-    color: var(--just-white);
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
   }
   
+  .btn:focus {
+    outline: none;
+  }
+  
+  .btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  @media screen and (max-width: 600px) {
+    .btn{
+      width: 60%;
+    }
+  }
+
   @keyframes rotation {
     from {
       transform: rotate(0deg);
