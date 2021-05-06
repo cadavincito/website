@@ -153,7 +153,7 @@ main {
 .about-me-container--content .img img {
   width: 24em;
   border-radius: 50%;
-  border:9px solid rgb(0, 0, 0);
+  border:6px solid rgb(0, 0, 0);
 }
 
 .about-me-container--content  p {
