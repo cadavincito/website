@@ -172,13 +172,19 @@
     margin-bottom: 30px;
   }
 
+  .about #venn{
+    width: 36rem;
+  }
+
   .about p{
     font-weight: 600;
     line-height: 1.5;
+    text-align: center;
     padding:0px 30px;
     font-size: 2.4rem;
     color: rgb(0, 0, 0);
     margin-bottom: 30px;
+    padding: 0 100px;
 }
 
 .portofolio
@@ -282,21 +288,27 @@
   }
 
 
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 425px) {
 
-  .left img{
-    width: 150px;
-  }
+    .about p{
+      font-weight: 600;
+      line-height: 1.5;
+      padding:0px 30px;
+      font-size: 2.4rem;
+      color: rgb(0, 0, 0);
+      margin-bottom: 30px;
+      padding: 0 30px;
+    }
+      
+      }
 
-  .right p{
-    font-weight: 600;
-    line-height: 1.5;
-    padding:0px 30px;
-    font-size: 1.8rem;
-    color: rgb(0, 0, 0);
-    margin-bottom: 30px;
+  @media screen and (max-width: 380px) {
+
+
+.about #venn{
+  width: 24rem;
 }
-  
+
   }
   
   @keyframes rotation {
