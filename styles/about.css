@@ -103,8 +103,9 @@
   .header
 {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  flex-direction: column;
   height: 15vh;
   width: 100%;
   background-color: rgb(255, 255, 255);
