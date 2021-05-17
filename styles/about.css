@@ -185,7 +185,7 @@
     font-size: 2.4rem;
     color: rgb(0, 0, 0);
     margin-bottom: 30px;
-    padding: 0 100px;
+    padding: 0 15%;
 }
 
 .portofolio
@@ -213,7 +213,8 @@
   
   .social-container{
   width: 100%;
-  height: 30vh;
+  height: 33vh;
+  margin-bottom: 6rem;
   }
   
   .social-icons{

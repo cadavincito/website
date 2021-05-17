@@ -125,7 +125,7 @@ main {
 
 .about-me-container {
   width: 100%;
-  height: 81vh;
+  height: 66vh;
   text-align: center;
   background-color: rgb(255, 255, 255);
 }
@@ -173,14 +173,14 @@ main {
 
 
 
-.blog-container .left{
+.blog-container{
   text-align: center;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  height:72vh;
+  height:66vh;
 }
 
 .blog-container .right h2,.blog-container .left h2{
@@ -188,14 +188,14 @@ main {
 }
 
 /* imagen de la serpiente */
-.blog-container .left img{
-  width: 210px;
+.blog-container  img{
+  width: 120px;
   animation: rotation 9s infinite linear;
 }
 
 
 @media screen and (max-width: 800px) {
-.blog-container .left{   
+.blog-container{   
     width: 100%;
     height: 66vh;
     padding: 0;
