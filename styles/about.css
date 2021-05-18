@@ -106,8 +106,9 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  height: 15vh;
+  height: 21vh;
   width: 100%;
+  margin-bottom: 30px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -170,7 +171,7 @@
   .about img{
     width: 24em;
     border-radius: 6px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
   .about #venn{
@@ -188,9 +189,8 @@
     padding: 0 15%;
 }
 
-.portofolio
-{
-  height: auto;
+.portofolio-header{
+  height: 15vh;
   width: 100%;
   display: flex;
   background-color: #000;
@@ -198,17 +198,36 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 30px;
+}
+
+
+.portofolio
+{
+  height: 120vh;
+  width: 100%;
+  display: flex;
+  background-color: #000;
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
   margin-bottom: 30px;
 }
 
-.portofolio p{
+.portofolio ul p{
+  margin-bottom: 15px;
   font-weight: 600;
-    line-height: 1.5;
-    padding:0px 30px;
-    font-size: 2.4rem;
-    color: rgb(255, 255, 255);
-    margin-bottom: 30px;
+  font-size: 3rem;
+  color: white;
+}
+
+.portofolio ul li{
+  margin:15px;
+}
+.portofolio li a{
+  font-weight: 500;
+  font-size: 2.4rem;
+  color: white;
 }
   
   .social-container{
