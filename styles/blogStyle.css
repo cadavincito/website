@@ -173,6 +173,10 @@ float: left;
 width: 75%;
 }
 
+.leftcolumn .card p{
+  padding: 0 60px;
+}
+
 /* Right column */
 .rightcolumn {
 float: left ;
