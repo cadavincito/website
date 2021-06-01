@@ -36,7 +36,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 30vh;
+    height: 39vh;
     width: 100%;
     /* padding: 30px; */
     font-size: 40px;
@@ -63,6 +63,7 @@
   }
   
   .main-banner img{
+    /* margin-top: 18px; */
     width: 60px;
     animation: rotation 18s infinite linear;
   }
@@ -134,7 +135,7 @@
 
 
 .leftcolumn .image-box{
-    margin: 2rem 0rem;
+    margin: 1rem 0rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
