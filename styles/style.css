@@ -413,6 +413,12 @@ footer section ul li a {
   animation: rotation 12s infinite linear;
 }
 
+.soman img:hover{
+  width: 210px;
+  animation: rotation 2s infinite;
+}
+
+
 @keyframes rotation {
   from {
     transform: rotate(0deg);
