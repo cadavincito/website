@@ -162,13 +162,25 @@ main {
   color: rgb(0, 0, 0);
 }
 
-.blog-container{
+.illustration-container{
+  text-align: center;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: auto;
-  width: 100%;
-  background-color: #ffffff;
+  flex-direction: column;
+  height:66vh;
+}
+
+/* imagen de soman*/
+.illustration-container  img{
+  width: 240px;
+  animation: rotation 9s infinite linear;
+}
+
+.illustration-container  img:hover{
+  width: 210px;
+  animation: rotation 2s infinite;
 }
 
 
@@ -190,7 +202,7 @@ main {
 /* imagen de la serpiente */
 .blog-container  img{
   width: 120px;
-  animation: rotation 9s infinite linear;
+
 }
 
 
@@ -384,6 +396,21 @@ footer section ul li a {
   font-weight: 600;
   color: white;
   font-size: 1.6rem;
+}
+
+
+/* SOMAN STUFF */
+.soman{
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.soman img{
+  width: 300px;
+  animation: rotation 12s infinite linear;
 }
 
 @keyframes rotation {
