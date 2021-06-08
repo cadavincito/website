@@ -125,7 +125,7 @@ main {
 
 .about-me-container {
   width: 100%;
-  height: 66vh;
+  height: 45vh;
   text-align: center;
   background-color: rgb(255, 255, 255);
 }
@@ -169,13 +169,12 @@ main {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  height:66vh;
+  height:36vh;
 }
 
 /* imagen de soman*/
 .illustration-container  img{
   width: 240px;
-  animation: rotation 9s infinite linear;
 }
 
 .illustration-container  img:hover{
@@ -192,7 +191,7 @@ main {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  height:66vh;
+  height: 45vh;
 }
 
 .blog-container .right h2,.blog-container .left h2{
@@ -202,7 +201,7 @@ main {
 /* imagen de la serpiente */
 .blog-container  img{
   width: 120px;
-
+  animation: rotation 9s infinite linear;
 }
 
 
