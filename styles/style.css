@@ -205,14 +205,14 @@ main {
 }
 
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
 .blog-container{   
     width: 100%;
     height: 66vh;
     padding: 0;
   }
 
-}
+} */
 
 
 .btn {
