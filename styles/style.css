@@ -169,7 +169,7 @@ main {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  height:36vh;
+  height:60vh;
 }
 
 /* imagen de soman*/
@@ -177,10 +177,7 @@ main {
   width: 240px;
 }
 
-.illustration-container  img:hover{
-  width: 210px;
-  animation: rotation 2s infinite;
-}
+
 
 
 
