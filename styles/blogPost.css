@@ -140,12 +140,12 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 320px;
+    width: 100%;
 }
 
 .leftcolumn .image-box img{
     margin: 2rem 0rem;
-     width: 80%;
+     width: 60%;
 }
 
 .leftcolumn .video-box {
