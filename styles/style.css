@@ -162,25 +162,6 @@ main {
   color: rgb(0, 0, 0);
 }
 
-.illustration-container{
-  text-align: center;
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  height:60vh;
-}
-
-/* imagen de soman*/
-.illustration-container  img{
-  width: 240px;
-}
-
-
-
-
-
 .blog-container{
   text-align: center;
   width: 100%;
@@ -433,26 +414,6 @@ footer section ul li a {
   font-weight: 600;
   color: white;
   font-size: 1.6rem;
-}
-
-
-/* SOMAN STUFF */
-.soman{
-  width: 100%;
-  height: 150vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.soman img{
-  width: 300px;
-  animation: rotation 12s infinite linear;
-}
-
-.soman img:hover{
-  width: 210px;
-  animation: rotation 2s infinite;
 }
 
 

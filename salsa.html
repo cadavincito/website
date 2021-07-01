@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/icons/opensalsa.svg" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="styles/salsa.css" />
+    <title>OPEN SALSA</title>
+  </head>
+
+  <body>
+    <header class="menu">
+      <div class="topnav" id="myTopnav">
+        <a style="padding-bottom: 4px; padding-top: 7px" href="index.html"
+          ><img src="assets/icons/snake.svg" alt="Logo de Cadavinci"
+        /></a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </header>
+
+    <main>
+
+    <section class="header">
+    <h1>OPEN SALSA</h1>
+    <h2 >La salsa libre</h2>
+    <img src="assets/icons/opensalsa.svg">
+    </section>
+
+    <section class="ingredients">
+        <h2>Ingredientes</h2>
+        <code>
+        <ul>
+        <li>3 Dientes de ajo (4 dientes si se quiere más fuerte).</li>
+        <li>El zumo de 1 limón.</li>
+        <li>1 huevo.</li>
+        <li>200 gr. de cilantro picado (preferiblemente sin el tallo).</li>
+        <li>1 cucharadita de pimienta.</li>
+        <li>2 cucharaditas de sal.</li>
+        <li>250 gr. de aceite de canola.</li>
+        </ul>
+        </code>
+    </section>
+
+     <section class="preparation">
+        <h2>Preparación</h2>
+        <code>
+        <p>
+        En la licuadora se agrega: el cilantro, el zumo de limón, el huevo, los dientes de ajo, la sal y la pimienta.
+        Se licua todo hasta que la mezcla este homgénea. Primer paso de la salsa, muy sencillo.<br>
+        El aceite es lo que hará que la salsa espece y obtenga una contextura como la mayonesa, así que este es el punto más crítico
+        de la preparación. Una vez tenemos la mezcla Homogénea, se  prende la licuadora, mientras la licuadora gira en el centro
+        de la mezcla se hará un pequeño agujero.Lentamente se vierte el aceite en este agujero hasta que la salsa obtenga la textura deseada.
+        </p>
+        <br>
+        <p>
+        <i>Las cantidades que aparecenen para algunos ingredientes son una referencia, hay personas que prefieren la salsa
+        un poco más salada o con más cítrico, quizá más espesa o más líquida. Mi recomendación es que seas fiel a la receta
+        base al menos la primera vez y luego te animes a explorar. 
+        </p>
+        </code>
+    </section>
+
+
+
+    </main>
+    <section class="disclaimer">
+      <p>Cooked with &#10084; by Cadavinci</p>
+    </section>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
