@@ -130,8 +130,14 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 45vh;
+    height: auto;
     text-align: center;
+    margin-bottom: 4.5rem;
+  }
+
+  .ingredients ul{
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 
   .ingredients h2{
@@ -156,8 +162,9 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 51vh;
+    height: auto;
     text-align: center;
+    margin-bottom: 3.9rem;
   }
 
   .preparation h2{
@@ -167,11 +174,107 @@
     margin-bottom: 3rem;
   }
 
-  .preparation p{
+  .preparation code{
+    width: 75%;
+  }
+
+  .preparation code p{
     font-family: monospace;
     font-weight: 400;
     font-size: 2.1rem;
-    text-align: justify;
+    text-align: center;
+  }
+
+  /* **************************** */
+  .support{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 3.9rem;
+  }
+
+  .support h2{
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 4.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .support code{
+    width: 80%;
+    margin-bottom: 30px;
+  }
+
+  .support code p{
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 2.1rem;
+    text-align: center;
+  }
+
+  .support .payment-method{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin:2.4rem;
+  }
+
+  .support .payment-method img{
+    width: 150px;
+    margin-bottom: 21px;
+  }
+
+  .support .payment-method input{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 2.1rem;
+    width: 30rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .support .payment-method button{
+background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  border: 6px solid #000; /* Green */
+  width: 20.1rem;
+  height: 6rem;
+  border-radius: 15px;
+  font-size: 1.8rem;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 20px;
+  }
+
+  .support .payment-method button a{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+  }
+
+  #paypal{
+    background-color: rgba(0, 16, 233);
+    border: 6px solid rgba(0, 16, 233); 
+  }
+
+  #btcbutton{
+    background-color: rgb(228, 128, 13);
+    border: 6px solid rgba(228, 128, 13); /* Green */
+  }
+
+  #ethbutton{
+    background-color: rgb(145, 145, 145);
+    border: 6px solid rgba(145, 145, 145); /* Green */
   }
   
   .disclaimer{

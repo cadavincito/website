@@ -61,7 +61,8 @@
         de la mezcla se hará un pequeño agujero.Lentamente se vierte el aceite en este agujero hasta que la salsa obtenga la textura deseada.
         </p>
         <br>
-        <p>
+        <br>
+        <p style = "color:rgb(105,105,105)">
         <i>Las cantidades que aparecenen para algunos ingredientes son una referencia, hay personas que prefieren la salsa
         un poco más salada o con más cítrico, quizá más espesa o más líquida. Mi recomendación es que seas fiel a la receta
         base al menos la primera vez y luego te animes a explorar. 
@@ -69,13 +70,50 @@
         </code>
     </section>
 
-
+    <section class="support">
+    <h2>Apoya la salsa</h2>
+    <code>
+        <p>
+        OPEN SALSA vive gracias a las personas que la apoyan.<br>
+        Si te gusta esta salsa, puedes contribuir al proyecto.<br>
+        Gracias por tu apoyo &#10084; 
+        </p>
+    </code>
+        <div class="payment-method">
+        <img src="assets/icons/paypal.svg" alt="Paypal logo">
+        <button id="paypal"><a href="https://paypal.me/cadavinci?locale.x=es_XC" target="_blank">Paypal</a></button>
+        </div>
+         <div class="payment-method">
+        <img src="assets/icons/bitcoin.svg" alt="Bitcoin logo">
+        <input type="text" value="1HcW6qrCVcd1vjULQmgSPwrdymDqimYwt1" id="btc">
+        <button id="btcbutton" onclick="copy(1)">copy Btc address</button>
+        </div>
+         <div class="payment-method">
+        <img src="assets/icons/ethereum.svg" alt="Ethereum logo">
+        <input type="text" value="0x17c16B464569226D3179b0E58a5216Eae298390B" id="eth">
+        <button id="ethbutton" onclick="copy(2)">copy Eth address</button>
+        </div>
+    </section>
 
     </main>
     <section class="disclaimer">
-      <p>Cooked with &#10084; by Cadavinci</p>
+      <p>Cooked with &#9832; by Cadavinci</p>
     </section>
     <script>
+      //1 for btc 2 for eth
+     function copy(n) {
+    var address = ""
+    if (n === 1){
+      address ="btc"
+    }else if (n===2){
+      address="eth"
+    }
+   var copyText = document.getElementById(address);
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert(address+" "+"address:" + copyText.value);
+}
       function myFunction() {
         var x = document.getElementById("myTopnav");
         if (x.className === "topnav") {
@@ -84,6 +122,7 @@
           x.className = "topnav";
         }
       }
+
     </script>
   </body>
 </html>
