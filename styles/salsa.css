@@ -113,6 +113,7 @@
    font-family: monospace;
    font-weight: 600;
    font-size: 6rem;
+   margin-top: 3rem;
   }
 
   .header h2{
@@ -124,6 +125,7 @@
 
   .header img{
    width: 320px;
+   margin-bottom: 3rem;
   }
 
   .ingredients{
