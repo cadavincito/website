@@ -201,16 +201,57 @@ main {
   animation: rotation 9s infinite linear;
 }
 
+/* OPEN SALSA CONTAINER */
+.salsa-container{
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 45vh;
+  margin-bottom: 30px;
+}
 
-/* @media screen and (max-width: 800px) {
-.blog-container{   
-    width: 100%;
-    height: 66vh;
-    padding: 0;
-  }
+.salsa-container .right h2,.salsa-container .left h2{
+ font-size: 3.6rem;
+}
 
-} */
+/* imagen de la salsa */
+.salsa-container  img{
+  width: 210px;
+}
 
+.salsa-btn {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 6px solid #000; /* Green */
+  width: 15%;
+  height: 3.6em;
+  border-radius: 15px;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.salsa-btn:focus {
+  outline: none;
+}
+
+.salsa-btn a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.salsa-btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.37),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ************************** */
 
 .btn {
   background-color: rgb(0, 0, 0);
@@ -227,6 +268,11 @@ main {
   margin-bottom: 20px;
 }
 
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.37),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
 .btn:focus {
   outline: none;
 }
@@ -241,11 +287,6 @@ main {
   .aboutMe{
     width: 10%;
   }
-}
-
-.btn:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.37),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 

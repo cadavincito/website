@@ -1,24 +1,9 @@
-.main-tables-container
-{
-    display: flex;
-    width: 930px;
-    margin: 0 auto; 
-}
-
-.product-cards--container
-{
-    display: flex;
-    flex-wrap: wrap;
-    width: 930px;
-    margin: 0 auto;
-}
-
-.plans-container--slider
-{
-    justify-content: center;
-}
 
 .btn{
+    width: 60%;
+}
+
+.salsa-btn{
     width: 60%;
 }
 
