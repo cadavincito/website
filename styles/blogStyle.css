@@ -173,9 +173,7 @@ float: left;
 width: 75%;
 }
 
-.leftcolumn .card p{
-  padding: 0 60px;
-}
+
 
 /* Right column */
 .rightcolumn {
@@ -194,29 +192,10 @@ background-color: #ffffff;
   font-size: 2.4rem;
 }
 
-/* Fake image */
-.fakeimg {
-background-color: #fff;
-background-size: cover;
-background-position: center; /* Center the image */
-width: 300px;
-height: 300px; 
-padding: 20px;
-}
 
-@media (min-width: 600px) {
-  .fakeimg {
-    background-color: #fff;
-    background-size: cover;
-    background-position: center; /* Center the image */
-    width: 60%;
-    height: 300px; 
-    padding: 20px;
-    }
-}
 /* Add a card effect for articles */
 .card {
- width: 100%;
+ width: 90%;
  background-color: white;
  padding: 20px;
  margin-bottom: 20px;
@@ -226,8 +205,20 @@ padding: 20px;
  flex-direction: column;
 }
 
+.card img{
+width: 300px;
+height: 300px; 
+padding: 20px;
+background-repeat: no-repeat;
+position: center;
+background-size: cover;
+margin-bottom: 9px;
+}
+
 .card a {
   text-decoration: none;
+  font-weight: 700;
+
 }
 
 .card h2{
@@ -252,10 +243,10 @@ margin-bottom:1rem;
 font-size: 1.8rem;
 font-weight: 600;
 line-height: 1.2;
-padding: 10px;
+text-align: center;
 }
 .card p a{
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   line-height: 1.2;
   }
 /* Clear floats after the columns */
