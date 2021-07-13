@@ -203,7 +203,7 @@
 
 .portofolio
 {
-  height: 30vh;
+  height: auto;
   width: 100%;
   display: flex;
   background-color: #000;
@@ -215,14 +215,22 @@
 }
 
 .portofolio ul p{
+  margin-top: 18px;
   margin-bottom: 15px;
   font-weight: 600;
   font-size: 3rem;
   color: white;
+  text-align: center;
+}
+
+.portofolio ul{
+  list-style-type:none;
+  margin-bottom: 15px;
 }
 
 .portofolio ul li{
   margin:15px;
+  text-align: center;
 }
 .portofolio li a{
   font-weight: 500;
